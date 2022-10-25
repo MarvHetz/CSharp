@@ -11,17 +11,20 @@ namespace WindowsFormsAppReise
         private string name;
         private string email;
         private string nachname;
+        public static int anzahl = 0;
+        private int teilnehmernr;
+
+        public int Teilnehmernr { get => teilnehmernr; set => teilnehmernr = value; }
 
         public Mensch(string name, string email, string nachname)
         {
-            this.Name = name;
-            this.Email = email;
+            this.name = name;
+            this.email = email;
             this.nachname = nachname;
+            anzahl++;
+            teilnehmernr = anzahl;
         }
 
-        public string Name { get => name; set => name = value; }
-        public string Email { get => email; set => email = value; }
-        public string Nachname { get => nachname; set => nachname= value; }
 
         public override string ToString()
         {
