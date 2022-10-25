@@ -1,0 +1,7 @@
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\bin\Debug\Kassensoftware.exe.config
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\bin\Debug\Kassensoftware.exe
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\bin\Debug\Kassensoftware.pdb
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\obj\Debug\Kassensoftware.csproj.SuggestedBindingRedirects.cache
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\obj\Debug\Kassensoftware.csproj.CoreCompileInputs.cache
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\obj\Debug\Kassensoftware.exe
+H:\C#\ConsoleAppHelloWorld\Kassensoftware\obj\Debug\Kassensoftware.pdb

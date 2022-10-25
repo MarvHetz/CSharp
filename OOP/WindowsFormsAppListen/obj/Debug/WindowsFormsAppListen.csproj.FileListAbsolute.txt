@@ -1,0 +1,11 @@
+H:\C#\OOP\WindowsFormsAppListen\bin\Debug\WindowsFormsAppListen.exe.config
+H:\C#\OOP\WindowsFormsAppListen\bin\Debug\WindowsFormsAppListen.exe
+H:\C#\OOP\WindowsFormsAppListen\bin\Debug\WindowsFormsAppListen.pdb
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.csproj.AssemblyReference.cache
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.csproj.SuggestedBindingRedirects.cache
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.Form1.resources
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.Properties.Resources.resources
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.csproj.GenerateResource.cache
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.csproj.CoreCompileInputs.cache
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.exe
+H:\C#\OOP\WindowsFormsAppListen\obj\Debug\WindowsFormsAppListen.pdb

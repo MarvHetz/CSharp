@@ -1,0 +1,8 @@
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\ConsoleAppHelloWorld.exe.config
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\ConsoleAppHelloWorld.exe
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\ConsoleAppHelloWorld.pdb
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\ConsoleAppHelloWorld.csproj.AssemblyReference.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\ConsoleAppHelloWorld.csproj.SuggestedBindingRedirects.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\ConsoleAppHelloWorld.csproj.CoreCompileInputs.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\ConsoleAppHelloWorld.exe
+H:\C#\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\ConsoleAppHelloWorld.pdb

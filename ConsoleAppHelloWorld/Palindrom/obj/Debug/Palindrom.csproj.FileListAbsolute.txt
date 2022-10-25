@@ -1,0 +1,8 @@
+H:\C#\ConsoleAppHelloWorld\Palindrom\bin\Debug\Palindrom.exe.config
+H:\C#\ConsoleAppHelloWorld\Palindrom\bin\Debug\Palindrom.exe
+H:\C#\ConsoleAppHelloWorld\Palindrom\bin\Debug\Palindrom.pdb
+H:\C#\ConsoleAppHelloWorld\Palindrom\obj\Debug\Palindrom.csproj.SuggestedBindingRedirects.cache
+H:\C#\ConsoleAppHelloWorld\Palindrom\obj\Debug\Palindrom.csproj.CoreCompileInputs.cache
+H:\C#\ConsoleAppHelloWorld\Palindrom\obj\Debug\Palindrom.exe
+H:\C#\ConsoleAppHelloWorld\Palindrom\obj\Debug\Palindrom.pdb
+H:\C#\ConsoleAppHelloWorld\Palindrom\obj\Debug\Palindrom.csproj.AssemblyReference.cache

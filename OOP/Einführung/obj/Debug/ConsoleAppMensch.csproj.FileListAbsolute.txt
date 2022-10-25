@@ -1,0 +1,8 @@
+H:\C#\OOP\Einführung\bin\Debug\Einführung.exe.config
+H:\C#\OOP\Einführung\bin\Debug\Einführung.exe
+H:\C#\OOP\Einführung\bin\Debug\Einführung.pdb
+H:\C#\OOP\Einführung\obj\Debug\ConsoleAppMensch.csproj.AssemblyReference.cache
+H:\C#\OOP\Einführung\obj\Debug\ConsoleAppMensch.csproj.SuggestedBindingRedirects.cache
+H:\C#\OOP\Einführung\obj\Debug\ConsoleAppMensch.csproj.CoreCompileInputs.cache
+H:\C#\OOP\Einführung\obj\Debug\Einführung.exe
+H:\C#\OOP\Einführung\obj\Debug\Einführung.pdb

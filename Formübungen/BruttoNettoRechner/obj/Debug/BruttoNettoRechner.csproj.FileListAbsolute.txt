@@ -1,0 +1,10 @@
+H:\C#\Formübungen\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.exe.config
+H:\C#\Formübungen\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.exe
+H:\C#\Formübungen\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.pdb
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.SuggestedBindingRedirects.cache
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.Form1.resources
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.Properties.Resources.resources
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.GenerateResource.cache
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.CoreCompileInputs.cache
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.exe
+H:\C#\Formübungen\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.pdb

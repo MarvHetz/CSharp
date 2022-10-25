@@ -1,0 +1,8 @@
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\bin\Debug\ConsoleAppStrings.exe.config
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\bin\Debug\ConsoleAppStrings.exe
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\bin\Debug\ConsoleAppStrings.pdb
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\obj\Debug\ConsoleAppStrings.csproj.AssemblyReference.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\obj\Debug\ConsoleAppStrings.csproj.SuggestedBindingRedirects.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\obj\Debug\ConsoleAppStrings.csproj.CoreCompileInputs.cache
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\obj\Debug\ConsoleAppStrings.exe
+H:\C#\ConsoleAppHelloWorld\ConsoleAppStrings\obj\Debug\ConsoleAppStrings.pdb

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6ab64201-5650-4239-82dc-95497137cf10": {
+      "ProjectGuid": "6ab64201-5650-4239-82dc-95497137cf10",
+      "DisplayName": "ConsoleAppMensch",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "65f30b29-7bdb-469c-bb94-ba373575f877": {
+      "ProjectGuid": "65f30b29-7bdb-469c-bb94-ba373575f877",
+      "DisplayName": "ConsoleAppAuto",
+      "ColorIndex": 1
+    },
+    "6aafe284-302b-4937-9721-61ab04cf19ce": {
+      "ProjectGuid": "6aafe284-302b-4937-9721-61ab04cf19ce",
+      "DisplayName": "WindowsFormsAppBibliothek",
+      "ColorIndex": 2
+    },
+    "e8f07b70-5fdb-4deb-b2ba-9464ae3b0fde": {
+      "ProjectGuid": "e8f07b70-5fdb-4deb-b2ba-9464ae3b0fde",
+      "DisplayName": "WindowsFormsAppListen",
+      "ColorIndex": 3
+    },
+    "58e72cf4-8b62-4683-bfe8-2cd3b56d95c6": {
+      "ProjectGuid": "58e72cf4-8b62-4683-bfe8-2cd3b56d95c6",
+      "DisplayName": "WinFormsAppAuto",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

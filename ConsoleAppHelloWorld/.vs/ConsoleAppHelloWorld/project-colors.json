@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d507f65-f837-4fe1-919f-27d8674d83cd": {
+      "ProjectGuid": "0d507f65-f837-4fe1-919f-27d8674d83cd",
+      "DisplayName": "ConsoleAppHelloWorld",
+      "ColorIndex": 0
+    },
+    "411acc76-4ecf-4b0c-a6b6-82fd02bbdaa6": {
+      "ProjectGuid": "411acc76-4ecf-4b0c-a6b6-82fd02bbdaa6",
+      "DisplayName": "ConsoleAppStrings",
+      "ColorIndex": 1
+    },
+    "6ea2e3dd-8223-4d02-b0fc-46b3a06c0aad": {
+      "ProjectGuid": "6ea2e3dd-8223-4d02-b0fc-46b3a06c0aad",
+      "DisplayName": "Palindrom",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "749caa01-cfd1-45a0-af35-b0f491a94e64": {
+      "ProjectGuid": "749caa01-cfd1-45a0-af35-b0f491a94e64",
+      "DisplayName": "KW",
+      "ColorIndex": 3
+    },
+    "b9a98e56-3c07-45cc-9f7b-e8ce938dfbe3": {
+      "ProjectGuid": "b9a98e56-3c07-45cc-9f7b-e8ce938dfbe3",
+      "DisplayName": "Kassensoftware",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

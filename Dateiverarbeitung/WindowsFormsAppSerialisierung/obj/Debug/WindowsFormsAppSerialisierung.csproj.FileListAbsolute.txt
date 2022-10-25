@@ -1,0 +1,11 @@
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\bin\Debug\WindowsFormsAppSerialisierung.exe.config
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\bin\Debug\WindowsFormsAppSerialisierung.exe
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\bin\Debug\WindowsFormsAppSerialisierung.pdb
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.csproj.AssemblyReference.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.csproj.SuggestedBindingRedirects.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.Form1.resources
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.Properties.Resources.resources
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.csproj.GenerateResource.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.csproj.CoreCompileInputs.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.exe
+H:\C#\Dateiverarbeitung\WindowsFormsAppSerialisierung\obj\Debug\WindowsFormsAppSerialisierung.pdb

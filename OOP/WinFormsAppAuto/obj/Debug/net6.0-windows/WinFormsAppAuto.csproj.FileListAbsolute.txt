@@ -1,0 +1,17 @@
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\WinFormsAppAuto.exe
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\WinFormsAppAuto.deps.json
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\WinFormsAppAuto.runtimeconfig.json
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\WinFormsAppAuto.dll
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\ref\WinFormsAppAuto.dll
+H:\C#\OOP\WinFormsAppAuto\bin\Debug\net6.0-windows\WinFormsAppAuto.pdb
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.csproj.AssemblyReference.cache
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.FormAutos.resources
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.csproj.GenerateResource.cache
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.AssemblyInfoInputs.cache
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.AssemblyInfo.cs
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.csproj.CoreCompileInputs.cache
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.dll
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\ref\WinFormsAppAuto.dll
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.pdb
+H:\C#\OOP\WinFormsAppAuto\obj\Debug\net6.0-windows\WinFormsAppAuto.genruntimeconfig.cache

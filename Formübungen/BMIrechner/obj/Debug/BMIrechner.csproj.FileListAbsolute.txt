@@ -1,0 +1,10 @@
+H:\C#\Formübungen\BMIrechner\bin\Debug\BMIrechner.exe.config
+H:\C#\Formübungen\BMIrechner\bin\Debug\BMIrechner.exe
+H:\C#\Formübungen\BMIrechner\bin\Debug\BMIrechner.pdb
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.csproj.SuggestedBindingRedirects.cache
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.FormGUI.resources
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.Properties.Resources.resources
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.csproj.GenerateResource.cache
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.csproj.CoreCompileInputs.cache
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.exe
+H:\C#\Formübungen\BMIrechner\obj\Debug\BMIrechner.pdb

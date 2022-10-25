@@ -1,0 +1,8 @@
+H:\C#\ConsoleAppHelloWorld\KW\bin\Debug\KW.exe.config
+H:\C#\ConsoleAppHelloWorld\KW\bin\Debug\KW.exe
+H:\C#\ConsoleAppHelloWorld\KW\bin\Debug\KW.pdb
+H:\C#\ConsoleAppHelloWorld\KW\obj\Debug\KW.csproj.AssemblyReference.cache
+H:\C#\ConsoleAppHelloWorld\KW\obj\Debug\KW.csproj.SuggestedBindingRedirects.cache
+H:\C#\ConsoleAppHelloWorld\KW\obj\Debug\KW.csproj.CoreCompileInputs.cache
+H:\C#\ConsoleAppHelloWorld\KW\obj\Debug\KW.exe
+H:\C#\ConsoleAppHelloWorld\KW\obj\Debug\KW.pdb

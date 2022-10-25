@@ -1,0 +1,11 @@
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\bin\Debug\WindowsFormsAppDateiverarbeitung.exe.config
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\bin\Debug\WindowsFormsAppDateiverarbeitung.exe
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\bin\Debug\WindowsFormsAppDateiverarbeitung.pdb
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.csproj.AssemblyReference.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.csproj.SuggestedBindingRedirects.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.Form1.resources
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.Properties.Resources.resources
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.csproj.GenerateResource.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.csproj.CoreCompileInputs.cache
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.exe
+H:\C#\Dateiverarbeitung\WindowsFormsAppDateiverarbeitung\obj\Debug\WindowsFormsAppDateiverarbeitung.pdb

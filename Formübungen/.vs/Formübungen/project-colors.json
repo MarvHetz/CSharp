@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db733d42-2f79-4136-9c47-dc6f124d29b3": {
+      "ProjectGuid": "db733d42-2f79-4136-9c47-dc6f124d29b3",
+      "DisplayName": "Formübungen",
+      "ColorIndex": 0
+    },
+    "5f50716a-3979-4cf5-ac52-dbfab44ca25e": {
+      "ProjectGuid": "5f50716a-3979-4cf5-ac52-dbfab44ca25e",
+      "DisplayName": "BMIrechner",
+      "ColorIndex": 1
+    },
+    "59d01c4b-8472-463d-9f43-251177e25635": {
+      "ProjectGuid": "59d01c4b-8472-463d-9f43-251177e25635",
+      "DisplayName": "BruttoNettoRechner",
+      "ColorIndex": 2
+    },
+    "514f4545-a6af-482d-a3bd-4d8cdd50e02f": {
+      "ProjectGuid": "514f4545-a6af-482d-a3bd-4d8cdd50e02f",
+      "DisplayName": "Farbauswahl",
+      "ColorIndex": 3
+    },
+    "de9db62d-ff0e-45a1-bb62-81dfa2d82843": {
+      "ProjectGuid": "de9db62d-ff0e-45a1-bb62-81dfa2d82843",
+      "DisplayName": "Pokemon",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

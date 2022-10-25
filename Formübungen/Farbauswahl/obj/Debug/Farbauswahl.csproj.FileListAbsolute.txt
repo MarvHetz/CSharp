@@ -1,0 +1,11 @@
+H:\C#\Formübungen\Farbauswahl\bin\Debug\Farbauswahl.exe.config
+H:\C#\Formübungen\Farbauswahl\bin\Debug\Farbauswahl.exe
+H:\C#\Formübungen\Farbauswahl\bin\Debug\Farbauswahl.pdb
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.csproj.AssemblyReference.cache
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.csproj.SuggestedBindingRedirects.cache
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.FormFarbauswahl.resources
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.Properties.Resources.resources
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.csproj.GenerateResource.cache
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.csproj.CoreCompileInputs.cache
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.exe
+H:\C#\Formübungen\Farbauswahl\obj\Debug\Farbauswahl.pdb

@@ -1,0 +1,11 @@
+H:\C#\Formübungen\Pokemon\bin\Debug\Pokemon.exe.config
+H:\C#\Formübungen\Pokemon\bin\Debug\Pokemon.exe
+H:\C#\Formübungen\Pokemon\bin\Debug\Pokemon.pdb
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.csproj.SuggestedBindingRedirects.cache
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.Form1.resources
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.exe
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.pdb
+H:\C#\Formübungen\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache

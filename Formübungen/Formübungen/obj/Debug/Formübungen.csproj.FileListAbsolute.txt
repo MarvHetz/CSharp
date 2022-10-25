@@ -1,0 +1,11 @@
+H:\C#\Formübungen\Formübungen\bin\Debug\Formübungen.exe.config
+H:\C#\Formübungen\Formübungen\bin\Debug\Formübungen.exe
+H:\C#\Formübungen\Formübungen\bin\Debug\Formübungen.pdb
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.csproj.AssemblyReference.cache
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.csproj.SuggestedBindingRedirects.cache
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.Form1.resources
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.Properties.Resources.resources
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.csproj.GenerateResource.cache
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.csproj.CoreCompileInputs.cache
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.exe
+H:\C#\Formübungen\Formübungen\obj\Debug\Formübungen.pdb
