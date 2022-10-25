@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsAppReise
 {
-    internal class Mensch
+    public class Mensch
     {
         private string name;
         private string email;
