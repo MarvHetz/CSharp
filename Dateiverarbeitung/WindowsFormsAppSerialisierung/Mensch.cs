@@ -6,26 +6,30 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsAppSerialisierung
 {
-    internal class Mensch
+    public class Mensch
     {
-        private string name;
-        private DateTime geb;
+        private string vorname;
+        private DateTime geburtsdatum;
         private string nachname;
 
-        public Mensch(string name, DateTime geb, string nachname)
-        {
-            this.Name = name;
-            this.Geb = geb;
-            this.nachname = nachname;
+        public Mensch()
+        { 
         }
 
-        public string Name { get => name; set => name = value; }
-        public DateTime Geb { get => geb; set => geb = value; }
-        public string Nachname { get => nachname; set => nachname= value; }
+        public Mensch(string vorname, DateTime geburtsdatum, string nachname)
+        {
+            Vorname = vorname;
+            Geburtsdatum = geburtsdatum;
+            Nachname = nachname;
+        }
+
+        public string Vorname { get => vorname; set => vorname = value; }
+        public DateTime Geburtsdatum { get => geburtsdatum; set => geburtsdatum = value; }
+        public string Nachname { get => nachname; set => nachname = value; }
 
         public override string ToString()
         {
-            return name;
+            return Vorname;
         }
     }
 }

@@ -23,14 +23,14 @@ namespace WindowsFormsAppDateiverarbeitung
 
             try
             {
-                StreamReader sr = new StreamReader("test.txt", Encoding.UTF8);
+                //StreamReader sr = new StreamReader("test.txt", Encoding.UTF8);
 
-                while (sr.EndOfStream == false)
-                {
-                    string temp = sr.ReadLine();
-                    listBoxInhalt.Items.Add(temp);
-                }
-                sr.Close();
+                //while (sr.EndOfStream == false)
+                //{
+                //    string temp = sr.ReadLine();
+                //    listBoxInhalt.Items.Add(temp);
+                //}
+                //sr.Close();
             }
             catch (IOException ex)
             {

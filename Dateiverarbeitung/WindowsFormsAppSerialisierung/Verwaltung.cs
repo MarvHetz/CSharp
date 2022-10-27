@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace WindowsFormsAppSerialisierung
 {
@@ -18,9 +19,9 @@ namespace WindowsFormsAppSerialisierung
 
         public List<Mensch> lesen() 
         {
-            try
-            {
-                StreamReader sr = new StreamReader("Menschen.csv",Encoding.UTF8);
+            //try
+            //{
+                /*StreamReader sr = new StreamReader("Menschen.csv",Encoding.UTF8);
                 string einlesen;
 
                 while (sr.EndOfStream == false)
@@ -34,12 +35,19 @@ namespace WindowsFormsAppSerialisierung
                     menschen.Add(temp);
                 }
                 sr.Close();
-            }
-            catch (Exception ex)
-            { 
-                Console.WriteLine("Datei konnte nicht gelesen werden!");
-                throw new Exception();
-            }
+                */
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Mensch>));
+                TextReader tr = new StreamReader("menschen.xml");
+
+                menschen = (List<Mensch>)serializer.Deserialize(tr);
+                tr.Close();
+
+            //}
+            //catch (Exception ex)
+            //{ 
+            //    Console.WriteLine("Datei konnte nicht gelesen werden!");
+            //    throw new Exception();
+            //}
             return menschen;
         }
 
@@ -54,6 +62,7 @@ namespace WindowsFormsAppSerialisierung
         {
             try
             {
+                /*
                 StreamWriter sw = new StreamWriter("Menschen.csv",false,Encoding.UTF8);
 
                 for (int i = 0; i < menschen.Count; i++)
@@ -61,6 +70,12 @@ namespace WindowsFormsAppSerialisierung
                     sw.WriteLine(menschen[i].Name + ';' + menschen[i].Nachname + ';' + Convert.ToString(menschen[i].Geb));
                 }
                 sw.Close();
+                */
+
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Mensch>));
+                TextWriter tw = new StreamWriter("menschen.xml");
+                serializer.Serialize(tw, menschen);
+                tw.Close();
             }
             catch (Exception ex)
             {

@@ -20,14 +20,14 @@ namespace WindowsFormsAppSerialisierung
 
         private void buttonLaden_Click(object sender, EventArgs e)
         {
-            try
-            {
+            //try
+            //{
                 listBoxInhalt.DataSource = verwaltung.lesen();
-            }
-            catch (Exception ex)
-            { 
-                MessageBox.Show("Datei konnte nicht gefunden werden!");
-            }
+            //}
+            //catch (Exception ex)
+            //{ 
+            //    MessageBox.Show(ex.Message);
+            //}
         }
 
         private void buttonHinzufügen_Click(object sender, EventArgs e)
