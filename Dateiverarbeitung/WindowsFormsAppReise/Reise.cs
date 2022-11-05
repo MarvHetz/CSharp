@@ -9,7 +9,7 @@ namespace WindowsFormsAppReise
 {
     public class Reise
     {
-        private List<Mensch> teilnehmer;
+        private List<Teilnehmer> teilnehmer;
 
         private int anzahlTeilnehmer = 0;
         private DateTime bis;
@@ -25,18 +25,18 @@ namespace WindowsFormsAppReise
             this.preis = preis;
             this.von = von;
             this.ziel = ziel;
-            teilnehmer = new List<Mensch>();
+            teilnehmer = new List<Teilnehmer>();
         }
 
-        internal List<Mensch> Teilnehmer { get => teilnehmer; set => teilnehmer = value; }
+        internal List<Teilnehmer> Teilnehmer { get => teilnehmer; set => teilnehmer = value; }
 
         public void neuerTeilnehmer(string name, string email, string nachname)
         {
-            teilnehmer.Add(new Mensch(name, email, nachname));
+            teilnehmer.Add(new Teilnehmer(name, email, nachname));
             anzahlTeilnehmer++;
         }
 
-        public void TeilnehmerLöschen(Mensch zuLöschen)
+        public void TeilnehmerLöschen(Teilnehmer zuLöschen)
         { 
             teilnehmer.Remove(zuLöschen);
         }

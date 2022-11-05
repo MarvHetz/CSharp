@@ -17,7 +17,15 @@ namespace WindowsFormsAppReise
         {
             InitializeComponent();
             verwaltung = new Verwaltung();
-            verwaltung.auslesen();
+            try
+            {
+                verwaltung.auslesen();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            
             comboBoxReise.DataSource = verwaltung.Reisen;
         }
 
