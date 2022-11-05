@@ -18,10 +18,10 @@ namespace WindowsFormsAppReise
         
         internal Reise Reisen { get => reisen; set => reisen = value; }
 
-        public List<Mensch> neuerTeilnehmer(Reise temp, string name, string email, string nachname)
+        public List<Mensch> neuerTeilnehmer(string name, string email, string nachname)
         {
-            temp.neuerTeilnehmer(name,email,nachname);
-            return temp.Teilnehmer;
+            reisen.neuerTeilnehmer(name,email,nachname);
+            return reisen.Teilnehmer;
         }
 
         public List<Mensch> neueReiseLaden(Reise neueReise)

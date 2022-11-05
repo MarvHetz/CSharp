@@ -24,7 +24,7 @@ namespace WindowsFormsAppReise
         private void buttonNeuerTeilnehmer_Click(object sender, EventArgs e)
         {
             Reise temp = (Reise) comboBoxReise.SelectedItem;
-            listBoxReisen.DataSource = verwaltung.neuerTeilnehmer(temp, Convert.ToString(textBoxVorname), Convert.ToString(textBoxEmail), Convert.ToString(textBoxNachname));
+            listBoxReisen.DataSource = verwaltung.neuerTeilnehmer(Convert.ToString(textBoxVorname), Convert.ToString(textBoxEmail), Convert.ToString(textBoxNachname));
         }
 
         private void comboBoxReise_SelectedIndexChanged(object sender, EventArgs e)
