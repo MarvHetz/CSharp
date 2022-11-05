@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,10 +18,16 @@ namespace WindowsFormsAppReise
         private DateTime von;
         private string ziel;
 
-        public Reise()
+        public Reise(DateTime bis, int maxTeilnehmer, decimal preis, DateTime von, string ziel)
         {
+            this.bis = bis;
+            this.maxTeilnehmer = maxTeilnehmer;
+            this.preis = preis;
+            this.von = von;
+            this.ziel = ziel;
+            teilnehmer = new List<Mensch>();
         }
-            
+
         internal List<Mensch> Teilnehmer { get => teilnehmer; set => teilnehmer = value; }
 
         public void neuerTeilnehmer(string name, string email, string nachname)

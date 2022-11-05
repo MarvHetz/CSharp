@@ -26,5 +26,10 @@ namespace WindowsFormsAppReise
         {
             return neueReise.Teilnehmer;
         }
+
+        public void auslesen()
+        {
+            
+        }
     }
 }
