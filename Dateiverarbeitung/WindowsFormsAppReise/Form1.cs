@@ -30,7 +30,7 @@ namespace WindowsFormsAppReise
         private void comboBoxReise_SelectedIndexChanged(object sender, EventArgs e)
         {
             Reise neueReise = (Reise) comboBoxReise.SelectedItem;
-            listBoxReisen.DataSource = verwaltung.neueReiseLaden(neueReise);
+            listBoxReisen.DataSource = neueReise.Teilnehmer;
         }
     }
 }
