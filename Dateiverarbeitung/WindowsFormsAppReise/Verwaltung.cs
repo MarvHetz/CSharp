@@ -13,6 +13,8 @@ namespace WindowsFormsAppReise
         {
             reisen = new List<Reise>();
         }
+        
+        internal List<Reise> Reisen { get => reisen; set => reisen = value; }
 
         public List<Mensch> neuerTeilnehmer(Reise temp, string name, string email, string nachname)
         {

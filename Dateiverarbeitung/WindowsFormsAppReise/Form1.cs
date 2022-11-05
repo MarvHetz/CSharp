@@ -17,6 +17,8 @@ namespace WindowsFormsAppReise
         {
             InitializeComponent();
             verwaltung = new Verwaltung();
+            verwaltung.auslesen();
+            comboBoxReise.DataSource = verwaltung.Reisen;
         }
 
         private void buttonNeuerTeilnehmer_Click(object sender, EventArgs e)

@@ -24,8 +24,7 @@ namespace WindowsFormsAppReise
             anzahl++;
             teilnehmernr = anzahl;
         }
-
-
+        
         public override string ToString()
         {
             return name;

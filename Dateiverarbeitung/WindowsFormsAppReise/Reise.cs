@@ -33,5 +33,10 @@ namespace WindowsFormsAppReise
         { 
             teilnehmer.Remove(zuLöschen);
         }
+
+        public override string ToString()
+        {
+            return ziel;
+        }
     }
 }
