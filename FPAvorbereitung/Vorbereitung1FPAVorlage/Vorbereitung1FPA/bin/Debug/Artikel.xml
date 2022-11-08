@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArtikel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Artikel>
+    <Nummer>1</Nummer>
+    <Bezeichung>Kissen</Bezeichung>
+    <Preis>12.50</Preis>
+  </Artikel>
+  <Artikel>
+    <Nummer>2</Nummer>
+    <Bezeichung>Decke</Bezeichung>
+    <Preis>60</Preis>
+  </Artikel>
+  <Artikel>
+    <Nummer>4</Nummer>
+    <Bezeichung>Couchtisch</Bezeichung>
+    <Preis>320</Preis>
+  </Artikel>
+</ArrayOfArtikel>
