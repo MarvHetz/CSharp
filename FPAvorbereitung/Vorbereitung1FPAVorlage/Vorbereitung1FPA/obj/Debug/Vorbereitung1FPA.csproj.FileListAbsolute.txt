@@ -18,3 +18,14 @@ C:\Users\katri\OneDrive - Berufliches Schulzentrum für Wirtschaft und Datenvera
 C:\Users\katri\OneDrive - Berufliches Schulzentrum für Wirtschaft und Datenverarbeitung\01C#\fpas\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.csproj.CoreCompileInputs.cache
 C:\Users\katri\OneDrive - Berufliches Schulzentrum für Wirtschaft und Datenverarbeitung\01C#\fpas\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.exe
 C:\Users\katri\OneDrive - Berufliches Schulzentrum für Wirtschaft und Datenverarbeitung\01C#\fpas\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.pdb
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\bin\Debug\Vorbereitung1FPA.exe.config
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\bin\Debug\Vorbereitung1FPA.exe
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\bin\Debug\Vorbereitung1FPA.pdb
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.csproj.AssemblyReference.cache
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.csproj.SuggestedBindingRedirects.cache
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.Form1.resources
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.Properties.Resources.resources
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.csproj.GenerateResource.cache
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.csproj.CoreCompileInputs.cache
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.exe
+H:\C#\FPAvorbereitung\Vorbereitung1FPAVorlage\Vorbereitung1FPA\obj\Debug\Vorbereitung1FPA.pdb

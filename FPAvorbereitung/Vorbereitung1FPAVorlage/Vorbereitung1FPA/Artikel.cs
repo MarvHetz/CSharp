@@ -24,6 +24,11 @@ namespace Vorbereitung1FPA
         public string Bezeichung { get => bezeichung; set => bezeichung = value; }
         public decimal Preis { get => preis; set => preis = value; }
 
+        public override string ToString()
+        {
+            return nummer + " " + bezeichung;
+        }
+
 
     }
 }
