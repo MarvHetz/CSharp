@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTeilnehmer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Teilnehmer>
+    <Email>ErnaMüller@t-online.de</Email>
+    <Vorname>Müller</Vorname>
+    <Nachname>Erna</Nachname>
+    <TeilnehmerNummer>1</TeilnehmerNummer>
+  </Teilnehmer>
+  <Teilnehmer>
+    <Email>MB@web.de</Email>
+    <Vorname>Bauer</Vorname>
+    <Nachname>Michael</Nachname>
+    <TeilnehmerNummer>2</TeilnehmerNummer>
+  </Teilnehmer>
+  <Teilnehmer>
+    <Email>KleiLo@mail.de</Email>
+    <Vorname>Kleinschmitt</Vorname>
+    <Nachname>Lorenz</Nachname>
+    <TeilnehmerNummer>3</TeilnehmerNummer>
+  </Teilnehmer>
+</ArrayOfTeilnehmer>
