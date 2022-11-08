@@ -58,15 +58,15 @@ namespace Vorbereitung1FPA
 
         private void comboBoxArtikel_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    Artikel anzeigen = (Artikel)comboBoxArtikel.SelectedItem;
-            //    textBoxArtikelbezeichnung.Text = anzeigen.Bezeichung;
-            //    textBoxArtikelnummer.Text = Convert.ToString(anzeigen.Nummer);
-            //    textBoxPreis.Text = Convert.ToString(anzeigen.Preis);
-            //}
-            //catch (Exception ex)
-            //{ }
+            try
+            {
+                Artikel anzeigen = (Artikel)comboBoxArtikel.SelectedItem;
+                textBoxArtikelbezeichnung.Text = anzeigen.Bezeichung;
+                textBoxArtikelnummer.Text = Convert.ToString(anzeigen.Nummer);
+                textBoxPreis.Text = Convert.ToString(anzeigen.Preis);
+            }
+            catch (Exception ex)
+            { }
         }
     }
 }
