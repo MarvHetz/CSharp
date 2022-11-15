@@ -17,18 +17,33 @@ namespace WindowsFormsAppReise
         {
             InitializeComponent();
             verwaltung = new Verwaltung();
+            verwaltung.alleReisenLaden();
+            comboBoxReise.DataSource = verwaltung.Reisen;
         }
 
         private void buttonNeuerTeilnehmer_Click(object sender, EventArgs e)
         {
             Reise temp = (Reise) comboBoxReise.SelectedItem;
-            listBoxReisen.DataSource = verwaltung.neuerTeilnehmer(temp, Convert.ToString(textBoxVorname), Convert.ToString(textBoxEmail), Convert.ToString(textBoxNachname));
+            aktualisieren(verwaltung.neuerTeilnehmer(temp, Convert.ToString(textBoxVorname.Text), Convert.ToString(textBoxEmail.Text), Convert.ToString(textBoxNachname.Text)));
         }
 
         private void comboBoxReise_SelectedIndexChanged(object sender, EventArgs e)
         {
             Reise neueReise = (Reise) comboBoxReise.SelectedItem;
-            listBoxReisen.DataSource = verwaltung.neueReiseLaden(neueReise);
+            listBoxTeilnehmer.DataSource = verwaltung.neueReiseLaden(neueReise);
+        }
+
+        private void aktualisieren(Reise reise)
+        {
+            listBoxTeilnehmer.DataSource = null;
+            listBoxTeilnehmer.DataSource = reise.LstTeilnehmer;
+        }
+
+        private void buttonLöschen_Click(object sender, EventArgs e)
+        {
+            Teilnehmer zuLoeschen = (Teilnehmer)listBoxTeilnehmer.SelectedItem;
+            Reise reise = (Reise)(comboBoxReise.SelectedItem);
+            aktualisieren(verwaltung.teilnehmerLoeschen(reise,zuLoeschen));
         }
     }
 }

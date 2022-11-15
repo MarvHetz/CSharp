@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.comboBoxReise = new System.Windows.Forms.ComboBox();
-            this.listBoxReisen = new System.Windows.Forms.ListBox();
+            this.listBoxTeilnehmer = new System.Windows.Forms.ListBox();
             this.groupBoxNeuerTeilnehmer = new System.Windows.Forms.GroupBox();
             this.labelEmail = new System.Windows.Forms.Label();
             this.labelVorname = new System.Windows.Forms.Label();
@@ -51,13 +51,13 @@
             this.comboBoxReise.TabIndex = 0;
             this.comboBoxReise.SelectedIndexChanged += new System.EventHandler(this.comboBoxReise_SelectedIndexChanged);
             // 
-            // listBoxReisen
+            // listBoxTeilnehmer
             // 
-            this.listBoxReisen.FormattingEnabled = true;
-            this.listBoxReisen.Location = new System.Drawing.Point(40, 56);
-            this.listBoxReisen.Name = "listBoxReisen";
-            this.listBoxReisen.Size = new System.Drawing.Size(482, 147);
-            this.listBoxReisen.TabIndex = 1;
+            this.listBoxTeilnehmer.FormattingEnabled = true;
+            this.listBoxTeilnehmer.Location = new System.Drawing.Point(40, 56);
+            this.listBoxTeilnehmer.Name = "listBoxTeilnehmer";
+            this.listBoxTeilnehmer.Size = new System.Drawing.Size(482, 147);
+            this.listBoxTeilnehmer.TabIndex = 1;
             // 
             // groupBoxNeuerTeilnehmer
             // 
@@ -136,6 +136,7 @@
             this.buttonLöschen.TabIndex = 1;
             this.buttonLöschen.Text = "Teilnehmer löschen";
             this.buttonLöschen.UseVisualStyleBackColor = true;
+            this.buttonLöschen.Click += new System.EventHandler(this.buttonLöschen_Click);
             // 
             // buttonNeuerTeilnehmer
             // 
@@ -154,7 +155,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 450);
             this.Controls.Add(this.groupBoxNeuerTeilnehmer);
-            this.Controls.Add(this.listBoxReisen);
+            this.Controls.Add(this.listBoxTeilnehmer);
             this.Controls.Add(this.comboBoxReise);
             this.Name = "ReiseUI";
             this.Text = "Reise";
@@ -167,7 +168,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox comboBoxReise;
-        private System.Windows.Forms.ListBox listBoxReisen;
+        private System.Windows.Forms.ListBox listBoxTeilnehmer;
         private System.Windows.Forms.GroupBox groupBoxNeuerTeilnehmer;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxVorname;

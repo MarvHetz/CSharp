@@ -8,13 +8,35 @@ namespace WindowsFormsAppReise
 {
     public class Reise
     {
-        private List<Mensch> teilnehmer;
+        private List<Teilnehmer> lstTeilnehmer;
+        private int anzahlTeilnehmer;
+        private DateTime bis;
+        private int maxTeilnehmer;
+        private decimal preis;
+        private DateTime von;
+        private string ziel;
 
-        internal List<Mensch> Teilnehmer { get => teilnehmer; set => teilnehmer = value; }
+        
+        public int AnzahlTeilnehmer { get => anzahlTeilnehmer; set => anzahlTeilnehmer = value; }
+        public DateTime Bis { get => bis; set => bis = value; }
+        public int MaxTeilnehmer { get => maxTeilnehmer; set => maxTeilnehmer = value; }
+        public decimal Preis { get => preis; set => preis = value; }
+        public DateTime Von { get => von; set => von = value; }
+        public string Ziel { get => ziel; set => ziel = value; }
+        public List<Teilnehmer> LstTeilnehmer { get => lstTeilnehmer; set => lstTeilnehmer = value; }
+
+        public Reise()
+        {
+        }
 
         public void neuerTeilnehmer(string name, string email, string nachname)
         {
-            teilnehmer.Add(new Mensch(name, email, nachname));
+            lstTeilnehmer.Add(new Teilnehmer(name, email, nachname));
+        }
+
+        public override string ToString()
+        {
+            return ziel;
         }
     }
 }
