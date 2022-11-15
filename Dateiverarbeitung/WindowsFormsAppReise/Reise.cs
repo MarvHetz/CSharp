@@ -29,6 +29,17 @@ namespace WindowsFormsAppReise
         {
         }
 
+        public Reise(DateTime bis, int maxTeilnehmer, decimal preis, DateTime von, string ziel)
+        {
+            this.lstTeilnehmer = new List<Teilnehmer>();
+            this.anzahlTeilnehmer = 0;
+            this.bis = bis;
+            this.maxTeilnehmer = maxTeilnehmer;
+            this.preis = preis;
+            this.von = von;
+            this.ziel = ziel;
+        }
+
         public void neuerTeilnehmer(string name, string email, string nachname)
         {
             lstTeilnehmer.Add(new Teilnehmer(name, email, nachname));

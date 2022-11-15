@@ -45,5 +45,15 @@ namespace WindowsFormsAppReise
             reise.LstTeilnehmer.Remove(zuLoeschen);
             return reise;
         }
+
+        public void neueReise(DateTime bis,int maxTeilnehmer,decimal preis,DateTime von, string ziel)
+        { 
+            reisen.Add(new Reise(bis,maxTeilnehmer,preis,von,ziel));
+        }
+
+        public void reiseLoeschen(Reise zuLoeschen)
+        {
+            reisen.Remove(zuLoeschen);
+        }
     }
 }
