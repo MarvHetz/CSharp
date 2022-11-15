@@ -14,6 +14,7 @@ namespace Vorbereitung1FPA
     public partial class Form1 : Form
     {
         private Lager lager;
+        private bool deselect = false;
         public Form1()
         {
             InitializeComponent();
@@ -23,12 +24,14 @@ namespace Vorbereitung1FPA
 
         private void buttonAufnehmen_Click(object sender, EventArgs e)
         {
+            deselect = true;
             String bezeichnung = textBoxArtikelbezeichnung.Text;
             decimal preis = Convert.ToDecimal(textBoxPreis.Text);
             lager.ArtikelAufnehmen(bezeichnung, preis);
             textBoxArtikelbezeichnung.Clear();
             textBoxPreis.Clear();
             aktualisieren();
+            deselect = false;
         }
 
         private void aktualisieren()
@@ -40,9 +43,11 @@ namespace Vorbereitung1FPA
 
         private void buttonLoeschen_Click(object sender, EventArgs e)
         {
+            deselect = true;
             Artikel zuLoeschen = (Artikel)comboBoxArtikel.SelectedItem;
             lager.ArtikelLoeschen(zuLoeschen);
             aktualisieren();
+            deselect=false;
         }
 
         private void buttonSpeichern_Click(object sender, EventArgs e)
@@ -60,10 +65,14 @@ namespace Vorbereitung1FPA
         {
             try
             {
-                Artikel anzeigen = (Artikel)comboBoxArtikel.SelectedItem;
-                textBoxArtikelbezeichnung.Text = anzeigen.Bezeichung;
-                textBoxArtikelnummer.Text = Convert.ToString(anzeigen.Nummer);
-                textBoxPreis.Text = Convert.ToString(anzeigen.Preis);
+                if (deselect == false)
+                {
+                    Artikel anzeigen = (Artikel)comboBoxArtikel.SelectedItem;
+                    textBoxArtikelbezeichnung.Text = anzeigen.Bezeichung;
+                    textBoxArtikelnummer.Text = Convert.ToString(anzeigen.Nummer);
+                    textBoxPreis.Text = Convert.ToString(anzeigen.Preis);
+                }
+
             }
             catch (Exception ex)
             { }
