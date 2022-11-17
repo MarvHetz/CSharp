@@ -1,0 +1,10 @@
+H:\C#\Vererbung\HausTierManager\bin\Debug\HausTierManager.exe.config
+H:\C#\Vererbung\HausTierManager\bin\Debug\HausTierManager.exe
+H:\C#\Vererbung\HausTierManager\bin\Debug\HausTierManager.pdb
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.AssemblyReference.cache
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.SuggestedBindingRedirects.cache
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.Properties.Resources.resources
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.GenerateResource.cache
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.CoreCompileInputs.cache
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.exe
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.pdb
