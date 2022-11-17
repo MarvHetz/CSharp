@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace HausTierManager
 {
-    internal class Hund
+    internal class Hund : Tier
     {
+        private int hundeSteuerNummer;
+        public Hund(string name ,double gewicht, int hundeSteuerNummer) : base(name,gewicht)
+        { 
+            this.hundeSteuerNummer = hundeSteuerNummer;
+        }
+
+        public override void Fuettern()
+        {
+            Gewicht *= 1.02;
+        }
     }
 }

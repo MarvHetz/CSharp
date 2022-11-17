@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HausTierManager
 {
-    internal class Katze
+    internal class Katze : Tier
     {
+        public Katze(string name, double gewicht) : base(name,gewicht)
+        {
+            
+        }
     }
 }

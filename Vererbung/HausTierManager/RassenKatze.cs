@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace HausTierManager
 {
-    internal class RassenKatze
+    internal class RassenKatze : Katze
     {
+        public RassenKatze(string name, double gewicht) : base(name, gewicht)
+        {
+        }
     }
 }
