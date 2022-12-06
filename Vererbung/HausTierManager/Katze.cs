@@ -12,5 +12,20 @@ namespace HausTierManager
         {
             
         }
+
+        public override void Fuettern()
+        {
+            Gewicht *= 1.02;
+        }
+
+        public override void Impfen()
+        {
+            Geimpft++;
+        }
+
+        public override void VerlaufErweitern()
+        {
+            Verlauf.Add("Katze "+Name+" "+Gewicht+" "+Geimpft);
+        }
     }
 }

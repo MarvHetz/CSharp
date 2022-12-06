@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "05bda80f-6487-466d-84ca-7b6c9ed9dfd7": {
+      "ProjectGuid": "05bda80f-6487-466d-84ca-7b6c9ed9dfd7",
+      "DisplayName": "HausTierManager",
+      "ColorIndex": 0
+    },
+    "ee876b0d-e98d-4489-a4ea-f0b3221ee237": {
+      "ProjectGuid": "ee876b0d-e98d-4489-a4ea-f0b3221ee237",
+      "DisplayName": "WindowsFormsAppFaehre",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

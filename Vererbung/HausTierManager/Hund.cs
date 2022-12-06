@@ -18,5 +18,15 @@ namespace HausTierManager
         {
             Gewicht *= 1.02;
         }
+
+        public override void Impfen()
+        {
+            Geimpft++;
+        }
+
+        public override void VerlaufErweitern()
+        {
+            Verlauf.Add("Rassenkatze " + Name + " " + Gewicht + " " + Geimpft+ " " + hundeSteuerNummer);
+        }
     }
 }

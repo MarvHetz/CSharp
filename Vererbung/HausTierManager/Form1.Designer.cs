@@ -29,20 +29,21 @@
         private void InitializeComponent()
         {
             this.Haustier = new System.Windows.Forms.GroupBox();
-            this.buttonFüttern = new System.Windows.Forms.Button();
-            this.listBoxTiere = new System.Windows.Forms.ListBox();
-            this.textBoxName = new System.Windows.Forms.TextBox();
-            this.comboBoxTiere = new System.Windows.Forms.ComboBox();
-            this.radioButtonHund = new System.Windows.Forms.RadioButton();
-            this.buttonImpfen = new System.Windows.Forms.Button();
-            this.radioKatze = new System.Windows.Forms.RadioButton();
-            this.radioButtonRasseKatze = new System.Windows.Forms.RadioButton();
             this.labelName = new System.Windows.Forms.Label();
-            this.textBoxGewicht = new System.Windows.Forms.TextBox();
-            this.textBoxHundesteuer = new System.Windows.Forms.TextBox();
             this.labelGewicht = new System.Windows.Forms.Label();
             this.labelHundesteuer = new System.Windows.Forms.Label();
+            this.textBoxHundesteuer = new System.Windows.Forms.TextBox();
+            this.textBoxGewicht = new System.Windows.Forms.TextBox();
+            this.radioButtonRasseKatze = new System.Windows.Forms.RadioButton();
+            this.radioKatze = new System.Windows.Forms.RadioButton();
+            this.radioButtonHund = new System.Windows.Forms.RadioButton();
+            this.textBoxName = new System.Windows.Forms.TextBox();
+            this.buttonFüttern = new System.Windows.Forms.Button();
+            this.listBoxTiere = new System.Windows.Forms.ListBox();
+            this.comboBoxTiere = new System.Windows.Forms.ComboBox();
+            this.buttonImpfen = new System.Windows.Forms.Button();
             this.buttonNeuesTier = new System.Windows.Forms.Button();
+            this.labelTierWahl = new System.Windows.Forms.Label();
             this.Haustier.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,80 +65,6 @@
             this.Haustier.TabStop = false;
             this.Haustier.Text = "Haustier";
             // 
-            // buttonFüttern
-            // 
-            this.buttonFüttern.Location = new System.Drawing.Point(331, 229);
-            this.buttonFüttern.Name = "buttonFüttern";
-            this.buttonFüttern.Size = new System.Drawing.Size(92, 59);
-            this.buttonFüttern.TabIndex = 1;
-            this.buttonFüttern.Text = "Füttern";
-            this.buttonFüttern.UseVisualStyleBackColor = true;
-            // 
-            // listBoxTiere
-            // 
-            this.listBoxTiere.FormattingEnabled = true;
-            this.listBoxTiere.Location = new System.Drawing.Point(331, 76);
-            this.listBoxTiere.Name = "listBoxTiere";
-            this.listBoxTiere.Size = new System.Drawing.Size(206, 147);
-            this.listBoxTiere.TabIndex = 2;
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.Location = new System.Drawing.Point(19, 91);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(173, 20);
-            this.textBoxName.TabIndex = 3;
-            // 
-            // comboBoxTiere
-            // 
-            this.comboBoxTiere.FormattingEnabled = true;
-            this.comboBoxTiere.Location = new System.Drawing.Point(331, 49);
-            this.comboBoxTiere.Name = "comboBoxTiere";
-            this.comboBoxTiere.Size = new System.Drawing.Size(206, 21);
-            this.comboBoxTiere.TabIndex = 4;
-            // 
-            // radioButtonHund
-            // 
-            this.radioButtonHund.AutoSize = true;
-            this.radioButtonHund.Location = new System.Drawing.Point(19, 36);
-            this.radioButtonHund.Name = "radioButtonHund";
-            this.radioButtonHund.Size = new System.Drawing.Size(51, 17);
-            this.radioButtonHund.TabIndex = 5;
-            this.radioButtonHund.TabStop = true;
-            this.radioButtonHund.Text = "Hund";
-            this.radioButtonHund.UseVisualStyleBackColor = true;
-            // 
-            // buttonImpfen
-            // 
-            this.buttonImpfen.Location = new System.Drawing.Point(445, 229);
-            this.buttonImpfen.Name = "buttonImpfen";
-            this.buttonImpfen.Size = new System.Drawing.Size(92, 59);
-            this.buttonImpfen.TabIndex = 6;
-            this.buttonImpfen.Text = "Impfen";
-            this.buttonImpfen.UseVisualStyleBackColor = true;
-            // 
-            // radioKatze
-            // 
-            this.radioKatze.AutoSize = true;
-            this.radioKatze.Location = new System.Drawing.Point(110, 36);
-            this.radioKatze.Name = "radioKatze";
-            this.radioKatze.Size = new System.Drawing.Size(52, 17);
-            this.radioKatze.TabIndex = 6;
-            this.radioKatze.TabStop = true;
-            this.radioKatze.Text = "Katze";
-            this.radioKatze.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonRasseKatze
-            // 
-            this.radioButtonRasseKatze.AutoSize = true;
-            this.radioButtonRasseKatze.Location = new System.Drawing.Point(201, 36);
-            this.radioButtonRasseKatze.Name = "radioButtonRasseKatze";
-            this.radioButtonRasseKatze.Size = new System.Drawing.Size(81, 17);
-            this.radioButtonRasseKatze.TabIndex = 7;
-            this.radioButtonRasseKatze.TabStop = true;
-            this.radioButtonRasseKatze.Text = "Rassekatze";
-            this.radioButtonRasseKatze.UseVisualStyleBackColor = true;
-            // 
             // labelName
             // 
             this.labelName.AutoSize = true;
@@ -146,20 +73,6 @@
             this.labelName.Size = new System.Drawing.Size(35, 13);
             this.labelName.TabIndex = 7;
             this.labelName.Text = "Name";
-            // 
-            // textBoxGewicht
-            // 
-            this.textBoxGewicht.Location = new System.Drawing.Point(19, 142);
-            this.textBoxGewicht.Name = "textBoxGewicht";
-            this.textBoxGewicht.Size = new System.Drawing.Size(173, 20);
-            this.textBoxGewicht.TabIndex = 8;
-            // 
-            // textBoxHundesteuer
-            // 
-            this.textBoxHundesteuer.Location = new System.Drawing.Point(19, 189);
-            this.textBoxHundesteuer.Name = "textBoxHundesteuer";
-            this.textBoxHundesteuer.Size = new System.Drawing.Size(173, 20);
-            this.textBoxHundesteuer.TabIndex = 9;
             // 
             // labelGewicht
             // 
@@ -179,6 +92,100 @@
             this.labelHundesteuer.TabIndex = 9;
             this.labelHundesteuer.Text = "Hundesteuernummer";
             // 
+            // textBoxHundesteuer
+            // 
+            this.textBoxHundesteuer.Location = new System.Drawing.Point(19, 189);
+            this.textBoxHundesteuer.Name = "textBoxHundesteuer";
+            this.textBoxHundesteuer.Size = new System.Drawing.Size(173, 20);
+            this.textBoxHundesteuer.TabIndex = 9;
+            // 
+            // textBoxGewicht
+            // 
+            this.textBoxGewicht.Location = new System.Drawing.Point(19, 142);
+            this.textBoxGewicht.Name = "textBoxGewicht";
+            this.textBoxGewicht.Size = new System.Drawing.Size(173, 20);
+            this.textBoxGewicht.TabIndex = 8;
+            // 
+            // radioButtonRasseKatze
+            // 
+            this.radioButtonRasseKatze.AutoSize = true;
+            this.radioButtonRasseKatze.Location = new System.Drawing.Point(201, 36);
+            this.radioButtonRasseKatze.Name = "radioButtonRasseKatze";
+            this.radioButtonRasseKatze.Size = new System.Drawing.Size(81, 17);
+            this.radioButtonRasseKatze.TabIndex = 7;
+            this.radioButtonRasseKatze.TabStop = true;
+            this.radioButtonRasseKatze.Text = "Rassekatze";
+            this.radioButtonRasseKatze.UseVisualStyleBackColor = true;
+            this.radioButtonRasseKatze.CheckedChanged += new System.EventHandler(this.radioButtonRasseKatze_CheckedChanged);
+            // 
+            // radioKatze
+            // 
+            this.radioKatze.AutoSize = true;
+            this.radioKatze.Location = new System.Drawing.Point(110, 36);
+            this.radioKatze.Name = "radioKatze";
+            this.radioKatze.Size = new System.Drawing.Size(52, 17);
+            this.radioKatze.TabIndex = 6;
+            this.radioKatze.TabStop = true;
+            this.radioKatze.Text = "Katze";
+            this.radioKatze.UseVisualStyleBackColor = true;
+            this.radioKatze.CheckedChanged += new System.EventHandler(this.radioKatze_CheckedChanged);
+            // 
+            // radioButtonHund
+            // 
+            this.radioButtonHund.AutoSize = true;
+            this.radioButtonHund.Location = new System.Drawing.Point(19, 36);
+            this.radioButtonHund.Name = "radioButtonHund";
+            this.radioButtonHund.Size = new System.Drawing.Size(51, 17);
+            this.radioButtonHund.TabIndex = 5;
+            this.radioButtonHund.TabStop = true;
+            this.radioButtonHund.Text = "Hund";
+            this.radioButtonHund.UseVisualStyleBackColor = true;
+            this.radioButtonHund.CheckedChanged += new System.EventHandler(this.radioButtonHund_CheckedChanged);
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.Location = new System.Drawing.Point(19, 91);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(173, 20);
+            this.textBoxName.TabIndex = 3;
+            // 
+            // buttonFüttern
+            // 
+            this.buttonFüttern.Location = new System.Drawing.Point(331, 229);
+            this.buttonFüttern.Name = "buttonFüttern";
+            this.buttonFüttern.Size = new System.Drawing.Size(92, 59);
+            this.buttonFüttern.TabIndex = 1;
+            this.buttonFüttern.Text = "Füttern";
+            this.buttonFüttern.UseVisualStyleBackColor = true;
+            this.buttonFüttern.Click += new System.EventHandler(this.buttonFüttern_Click);
+            // 
+            // listBoxTiere
+            // 
+            this.listBoxTiere.FormattingEnabled = true;
+            this.listBoxTiere.Location = new System.Drawing.Point(331, 76);
+            this.listBoxTiere.Name = "listBoxTiere";
+            this.listBoxTiere.Size = new System.Drawing.Size(206, 147);
+            this.listBoxTiere.TabIndex = 2;
+            // 
+            // comboBoxTiere
+            // 
+            this.comboBoxTiere.FormattingEnabled = true;
+            this.comboBoxTiere.Location = new System.Drawing.Point(331, 49);
+            this.comboBoxTiere.Name = "comboBoxTiere";
+            this.comboBoxTiere.Size = new System.Drawing.Size(206, 21);
+            this.comboBoxTiere.TabIndex = 4;
+            this.comboBoxTiere.SelectedIndexChanged += new System.EventHandler(this.comboBoxTiere_SelectedIndexChanged);
+            // 
+            // buttonImpfen
+            // 
+            this.buttonImpfen.Location = new System.Drawing.Point(445, 229);
+            this.buttonImpfen.Name = "buttonImpfen";
+            this.buttonImpfen.Size = new System.Drawing.Size(92, 59);
+            this.buttonImpfen.TabIndex = 6;
+            this.buttonImpfen.Text = "Impfen";
+            this.buttonImpfen.UseVisualStyleBackColor = true;
+            this.buttonImpfen.Click += new System.EventHandler(this.buttonImpfen_Click);
+            // 
             // buttonNeuesTier
             // 
             this.buttonNeuesTier.Location = new System.Drawing.Point(12, 294);
@@ -187,12 +194,23 @@
             this.buttonNeuesTier.TabIndex = 7;
             this.buttonNeuesTier.Text = "Neues Haustier";
             this.buttonNeuesTier.UseVisualStyleBackColor = true;
+            this.buttonNeuesTier.Click += new System.EventHandler(this.buttonNeuesTier_Click);
+            // 
+            // labelTierWahl
+            // 
+            this.labelTierWahl.AutoSize = true;
+            this.labelTierWahl.Location = new System.Drawing.Point(328, 33);
+            this.labelTierWahl.Name = "labelTierWahl";
+            this.labelTierWahl.Size = new System.Drawing.Size(65, 13);
+            this.labelTierWahl.TabIndex = 8;
+            this.labelTierWahl.Text = "Tier wählen:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(543, 357);
+            this.Controls.Add(this.labelTierWahl);
             this.Controls.Add(this.buttonNeuesTier);
             this.Controls.Add(this.buttonImpfen);
             this.Controls.Add(this.comboBoxTiere);
@@ -204,6 +222,7 @@
             this.Haustier.ResumeLayout(false);
             this.Haustier.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -224,6 +243,7 @@
         private System.Windows.Forms.ComboBox comboBoxTiere;
         private System.Windows.Forms.Button buttonImpfen;
         private System.Windows.Forms.Button buttonNeuesTier;
+        private System.Windows.Forms.Label labelTierWahl;
     }
 }
 

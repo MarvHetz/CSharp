@@ -10,24 +10,37 @@ namespace HausTierManager
     {
         private string name;
         private double gewicht;
-        private bool geimpft;
+        private int geimpft;
+        List<string> verlauf;
 
         public Tier(string name,double gewicht)
         { 
             this.Name = name;
             this.Gewicht = gewicht;
-            this.geimpft = false;
+            this.Geimpft = 0;
+            Verlauf = new List<string>();
         }
 
         public string Name { get => name; set => name = value; }
         public double Gewicht { get => gewicht; set => gewicht = value; }
+        public int Geimpft { get => geimpft; set => geimpft = value; }
+        public List<string> Verlauf { get => verlauf; set => verlauf = value; }
 
         public virtual void Fuettern()
         {}
 
-        public void Impfen()
-        { 
-            geimpft = true;
+        public virtual void Impfen()
+        {
+            Geimpft++;
+        }
+
+        public override string ToString()
+        {
+            return name;
+        }
+
+        public virtual void VerlaufErweitern()
+        {
         }
     }
 }

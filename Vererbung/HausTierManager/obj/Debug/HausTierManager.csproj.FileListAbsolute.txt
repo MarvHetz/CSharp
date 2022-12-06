@@ -8,3 +8,4 @@ H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.GenerateResourc
 H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.csproj.CoreCompileInputs.cache
 H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.exe
 H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.pdb
+H:\C#\Vererbung\HausTierManager\obj\Debug\HausTierManager.Form1.resources
