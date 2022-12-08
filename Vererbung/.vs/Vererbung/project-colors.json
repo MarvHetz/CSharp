@@ -10,7 +10,22 @@
       "ProjectGuid": "ee876b0d-e98d-4489-a4ea-f0b3221ee237",
       "DisplayName": "WindowsFormsAppFaehre",
       "ColorIndex": 1
+    },
+    "53d36354-ad10-4801-bffc-5f9265099d3f": {
+      "ProjectGuid": "53d36354-ad10-4801-bffc-5f9265099d3f",
+      "DisplayName": "WindowsFormsAppDelegateEinführung",
+      "ColorIndex": 2
+    },
+    "2149798b-a92a-4759-b290-dca2789aec96": {
+      "ProjectGuid": "2149798b-a92a-4759-b290-dca2789aec96",
+      "DisplayName": "WindowsFormsAppFaehreVorlage",
+      "ColorIndex": 3
+    },
+    "2116f837-cb2f-4b5d-a311-96e38130c243": {
+      "ProjectGuid": "2116f837-cb2f-4b5d-a311-96e38130c243",
+      "DisplayName": "WinFormsAppHaustierVorlage",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }
