@@ -39,9 +39,9 @@ namespace WindowsFormsAppDelegateEinführung
             aktualisieren();
         }
 
-        public void Fehlermeldung()
+        public void Fehlermeldung(string Fehlermeldung)
         {
-            MessageBox.Show("Maximale Anzahl an Vorschlaegen erreicht!");
+            MessageBox.Show(Fehlermeldung);
         }
     }
 }

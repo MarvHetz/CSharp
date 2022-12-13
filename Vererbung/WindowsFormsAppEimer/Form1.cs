@@ -12,22 +12,32 @@ namespace WindowsFormsAppEimer
 {
     public partial class Form1 : Form
     {
-        Eimer eimer = new Eimer(10);
+        Eimer eimer;
         public Form1()
         {
             InitializeComponent();
+            eimer = new Eimer(10);
+            eimer.onFillError += FillErrorMessage;
+            textBox1.Text = Convert.ToString(eimer.AktFuellmenge);
         }
 
         private void buttonHinzufuegen_Click(object sender, EventArgs e)
         {
             int hinzufuegen = Convert.ToInt32(textBoxEingabe.Text);
-
+            panelFuellstand.Height -= (panelMaxFuellstand.Height / eimer.MaxFuellmenge) * hinzufuegen;
+            eimer.Einfuellen(hinzufuegen);
+            textBox1.Text = Convert.ToString(eimer.AktFuellmenge);
 
         }
 
         private void buttonEimerLeeren_Click(object sender, EventArgs e)
         {
+            panelFuellstand.Height = panelMaxFuellstand.Height;
+        }
 
+        private void FillErrorMessage(string fehlermeldung)
+        {
+            MessageBox.Show(fehlermeldung);
         }
     }
 }

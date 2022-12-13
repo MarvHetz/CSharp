@@ -11,7 +11,7 @@ namespace WindowsFormsAppEimer
     {
         private int maxFuellmenge;
         private int aktFuellmenge;
-        public delegate void FillError();
+        public delegate void FillError(string fehlermeldung);
         public FillError onFillError;
 
         public Eimer()
@@ -31,7 +31,11 @@ namespace WindowsFormsAppEimer
         {
             if (this.aktFuellmenge + menge > maxFuellmenge)
             {
-                onFillError();
+                if (onFillError != null)
+                {
+                    onFillError("Die MaximaleFuellmenge ist erreicht!");
+                }
+                aktFuellmenge = maxFuellmenge;
             }
             else
             {

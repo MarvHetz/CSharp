@@ -25,7 +25,12 @@
       "ProjectGuid": "2116f837-cb2f-4b5d-a311-96e38130c243",
       "DisplayName": "WinFormsAppHaustierVorlage",
       "ColorIndex": 4
+    },
+    "a7127a9c-5d9b-487e-a1ba-fa6a4dc17ace": {
+      "ProjectGuid": "a7127a9c-5d9b-487e-a1ba-fa6a4dc17ace",
+      "DisplayName": "WindowsFormsAppEimer",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

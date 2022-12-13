@@ -9,7 +9,7 @@ namespace WindowsFormsAppDelegateEinführung
     class Vorschlaege
     {
         List<string> liste;
-        public delegate void MaxVorschlaegeErreicht();
+        public delegate void MaxVorschlaegeErreicht(string Fehlermeldung);
         public MaxVorschlaegeErreicht OnmaxVorschlaegeErreicht = null;
 
         public List<string> Liste { get => liste; private set => liste = value; }
@@ -28,7 +28,7 @@ namespace WindowsFormsAppDelegateEinführung
             {
                 if (OnmaxVorschlaegeErreicht != null)
                 {
-                    OnmaxVorschlaegeErreicht();
+                    OnmaxVorschlaegeErreicht("Das sind zu viele Vorschläge!");
                 }
             }
             
