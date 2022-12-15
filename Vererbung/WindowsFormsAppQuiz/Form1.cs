@@ -12,9 +12,18 @@ namespace WindowsFormsAppQuiz
 {
     public partial class Form1 : Form
     {
+        private FrageVerwaltung frageVerwaltung;
         public Form1()
         {
             InitializeComponent();
+            frageVerwaltung = new FrageVerwaltung();
+            comboBoxFragen.DataSource = frageVerwaltung.Fragen;
+        }
+
+        private void comboBoxFragen_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Frage fragen = (Frage) comboBoxFragen.SelectedItem;
+            listBoxAntworten.DataSource = fragen.Antworten;
         }
     }
 }

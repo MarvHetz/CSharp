@@ -40,6 +40,7 @@
             this.comboBoxFragen.Name = "comboBoxFragen";
             this.comboBoxFragen.Size = new System.Drawing.Size(510, 21);
             this.comboBoxFragen.TabIndex = 0;
+            this.comboBoxFragen.SelectedIndexChanged += new System.EventHandler(this.comboBoxFragen_SelectedIndexChanged);
             // 
             // listBoxAntworten
             // 

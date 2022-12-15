@@ -6,8 +6,25 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsAppQuiz
 {
-    internal class Frage
+    public class Frage
     {
-        List<Antwort> anworten;
+        private List<Antwort> antworten;
+        private String fragestellung;
+
+        public Frage()
+        { 
+            antworten = new List<Antwort>();
+        }
+
+        public string Fragestellung { get => fragestellung; set => fragestellung = value; }
+        public List<Antwort> Antworten { get => antworten; set => antworten = value; }
+
+        public override string ToString()
+        {
+            return fragestellung;
+        }
+
+        public void Loesen(Antwort antwort)
+        { }
     }
 }

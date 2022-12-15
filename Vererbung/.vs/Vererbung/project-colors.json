@@ -30,7 +30,12 @@
       "ProjectGuid": "a7127a9c-5d9b-487e-a1ba-fa6a4dc17ace",
       "DisplayName": "WindowsFormsAppEimer",
       "ColorIndex": 5
+    },
+    "e415a6f5-d42f-48ed-9d72-5af634e14961": {
+      "ProjectGuid": "e415a6f5-d42f-48ed-9d72-5af634e14961",
+      "DisplayName": "WindowsFormsAppQuiz",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

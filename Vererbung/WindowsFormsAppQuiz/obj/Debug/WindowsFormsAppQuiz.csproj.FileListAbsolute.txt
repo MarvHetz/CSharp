@@ -1,0 +1,11 @@
+H:\C#\Vererbung\WindowsFormsAppQuiz\bin\Debug\WindowsFormsAppQuiz.exe.config
+H:\C#\Vererbung\WindowsFormsAppQuiz\bin\Debug\WindowsFormsAppQuiz.exe
+H:\C#\Vererbung\WindowsFormsAppQuiz\bin\Debug\WindowsFormsAppQuiz.pdb
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.csproj.AssemblyReference.cache
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.csproj.SuggestedBindingRedirects.cache
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.Form1.resources
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.Properties.Resources.resources
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.csproj.GenerateResource.cache
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.csproj.CoreCompileInputs.cache
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.exe
+H:\C#\Vererbung\WindowsFormsAppQuiz\obj\Debug\WindowsFormsAppQuiz.pdb
