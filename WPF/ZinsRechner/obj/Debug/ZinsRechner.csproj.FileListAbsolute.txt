@@ -1,0 +1,16 @@
+H:\C#\WPF\ZinsRechner\bin\Debug\ZinsRechner.exe.config
+H:\C#\WPF\ZinsRechner\bin\Debug\ZinsRechner.exe
+H:\C#\WPF\ZinsRechner\bin\Debug\ZinsRechner.pdb
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.csproj.SuggestedBindingRedirects.cache
+H:\C#\WPF\ZinsRechner\obj\Debug\MainWindow.g.cs
+H:\C#\WPF\ZinsRechner\obj\Debug\App.g.cs
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner_MarkupCompile.cache
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner_MarkupCompile.lref
+H:\C#\WPF\ZinsRechner\obj\Debug\MainWindow.baml
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.g.resources
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.Properties.Resources.resources
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.csproj.GenerateResource.cache
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.csproj.CoreCompileInputs.cache
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.exe
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.pdb
+H:\C#\WPF\ZinsRechner\obj\Debug\GeneratedInternalTypeHelper.g.cs

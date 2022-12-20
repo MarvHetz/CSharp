@@ -1,0 +1,16 @@
+H:\C#\WPF\Ein und Ausgaben\bin\Debug\Ein und Ausgaben.exe.config
+H:\C#\WPF\Ein und Ausgaben\bin\Debug\Ein und Ausgaben.exe
+H:\C#\WPF\Ein und Ausgaben\bin\Debug\Ein und Ausgaben.pdb
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.csproj.SuggestedBindingRedirects.cache
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\MainWindow.g.cs
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\App.g.cs
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben_MarkupCompile.cache
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben_MarkupCompile.lref
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\MainWindow.baml
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.g.resources
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein_und_Ausgaben.Properties.Resources.resources
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.csproj.GenerateResource.cache
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.csproj.CoreCompileInputs.cache
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.exe
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\Ein und Ausgaben.pdb
+H:\C#\WPF\Ein und Ausgaben\obj\Debug\GeneratedInternalTypeHelper.g.cs

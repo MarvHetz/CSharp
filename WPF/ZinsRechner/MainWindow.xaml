@@ -1,0 +1,40 @@
+﻿<Window x:Class="ZinsRechner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZinsRechner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="60,60">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Kapital"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Zinssatz"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Laufzeit"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="Endkapital"/>
+
+        <TextBox x:Name="textBoxKapital" Grid.Row="0" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxZinssatz" Grid.Row="1" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxLaufzeit"  Grid.Row="2" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxEndkapital" Grid.Row="4" Grid.Column="1" Margin="20,15"/>
+
+        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content=" Berechnen" Margin="20,15"/>
+    </Grid>
+
+    <Window.DataContext>
+        <local:ZinsesZins/>
+    </Window.DataContext>
+    
+    
+</Window>
