@@ -24,12 +24,12 @@
         <Label Grid.Row="2" Grid.Column="0" Content="Laufzeit"/>
         <Label Grid.Row="4" Grid.Column="0" Content="Endkapital"/>
 
-        <TextBox x:Name="textBoxKapital" Grid.Row="0" Grid.Column="1" Margin="20,15"/>
-        <TextBox x:Name="textBoxZinssatz" Grid.Row="1" Grid.Column="1" Margin="20,15"/>
-        <TextBox x:Name="textBoxLaufzeit"  Grid.Row="2" Grid.Column="1" Margin="20,15"/>
-        <TextBox x:Name="textBoxEndkapital" Grid.Row="4" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxKapital" Text="{Binding Kapital}"  Grid.Row="0" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxZinssatz" Text="{Binding Zinssatz}" Grid.Row="1" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxLaufzeit" Text="{Binding Laufzeit}" Grid.Row="2" Grid.Column="1" Margin="20,15"/>
+        <TextBox x:Name="textBoxEndkapital" Text="{Binding EndKapital, Mode=TwoWay}" Grid.Row="4" Grid.Column="1" Margin="20,15"/>
 
-        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content=" Berechnen" Margin="20,15"/>
+        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content=" Berechnen" Margin="20,15" Cursor="" Click="Button_Click"/>
     </Grid>
 
     <Window.DataContext>

@@ -14,3 +14,4 @@ H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.csproj.CoreCompileInputs.cache
 H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.exe
 H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.pdb
 H:\C#\WPF\ZinsRechner\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\C#\WPF\ZinsRechner\obj\Debug\ZinsRechner.csproj.AssemblyReference.cache

@@ -1,0 +1,16 @@
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.csproj.SuggestedBindingRedirects.cache
+H:\C#\WPF\WpfAppListen\obj\Debug\MainWindow.g.cs
+H:\C#\WPF\WpfAppListen\obj\Debug\App.g.cs
+H:\C#\WPF\WpfAppListen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen_MarkupCompile.cache
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen_MarkupCompile.lref
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.exe
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.pdb
+H:\C#\WPF\WpfAppListen\bin\Debug\WpfAppListen.exe.config
+H:\C#\WPF\WpfAppListen\bin\Debug\WpfAppListen.exe
+H:\C#\WPF\WpfAppListen\bin\Debug\WpfAppListen.pdb
+H:\C#\WPF\WpfAppListen\obj\Debug\MainWindow.baml
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.g.resources
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.Properties.Resources.resources
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.csproj.GenerateResource.cache
+H:\C#\WPF\WpfAppListen\obj\Debug\WpfAppListen.csproj.CoreCompileInputs.cache

@@ -5,7 +5,22 @@
       "ProjectGuid": "27f5f1c7-7791-483c-989c-0093056a36b4",
       "DisplayName": "WpfAppEinstieg",
       "ColorIndex": 0
+    },
+    "20df2912-23c0-4d27-bee6-59f085c0344c": {
+      "ProjectGuid": "20df2912-23c0-4d27-bee6-59f085c0344c",
+      "DisplayName": "Ein und Ausgaben",
+      "ColorIndex": 1
+    },
+    "b66c6d1c-d2e9-4eda-a86e-5b853931465f": {
+      "ProjectGuid": "b66c6d1c-d2e9-4eda-a86e-5b853931465f",
+      "DisplayName": "ZinsRechner",
+      "ColorIndex": 2
+    },
+    "585b1100-4fda-415c-969a-5b2dc639907d": {
+      "ProjectGuid": "585b1100-4fda-415c-969a-5b2dc639907d",
+      "DisplayName": "WpfAppListen",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

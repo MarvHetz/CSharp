@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ein und Ausgaben", "Ein und
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZinsRechner", "ZinsRechner\ZinsRechner.csproj", "{B66C6D1C-D2E9-4EDA-A86E-5B853931465F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppListen", "WpfAppListen\WpfAppListen.csproj", "{585B1100-4FDA-415C-969A-5B2DC639907D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B66C6D1C-D2E9-4EDA-A86E-5B853931465F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66C6D1C-D2E9-4EDA-A86E-5B853931465F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66C6D1C-D2E9-4EDA-A86E-5B853931465F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585B1100-4FDA-415C-969A-5B2DC639907D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585B1100-4FDA-415C-969A-5B2DC639907D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585B1100-4FDA-415C-969A-5B2DC639907D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585B1100-4FDA-415C-969A-5B2DC639907D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

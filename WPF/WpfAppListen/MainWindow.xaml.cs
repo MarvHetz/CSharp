@@ -13,8 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-namespace ZinsRechner
+namespace WpfAppListen
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
@@ -24,15 +23,6 @@ namespace ZinsRechner
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            ZinsesZins zinsesZins = (ZinsesZins)this.DataContext;
-
-            zinsesZins.berechneEndKapital();
-
-            this.DataContext = zinsesZins;
         }
     }
 }
