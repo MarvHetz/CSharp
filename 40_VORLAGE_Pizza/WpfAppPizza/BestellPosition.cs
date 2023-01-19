@@ -15,5 +15,10 @@ namespace WpfAppPizza
         public int Id { get => id; set => id = value; }       
         public int Menge { get => menge; set => menge = value; }
         public Pizza NeuePizza { get => neuePizza; set => neuePizza = value; }
+
+        public override string ToString()
+        {
+            return menge + " x " + neuePizza;
+        }
     }
 }

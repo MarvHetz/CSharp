@@ -20,7 +20,5 @@ namespace WpfAppPizza
         {
             return bezeichnung + " " + preis;
         }
-
-
     }
 }
