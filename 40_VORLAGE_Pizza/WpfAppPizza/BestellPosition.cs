@@ -16,9 +16,15 @@ namespace WpfAppPizza
         public int Menge { get => menge; set => menge = value; }
         public Pizza NeuePizza { get => neuePizza; set => neuePizza = value; }
 
+        public BestellPosition(Pizza neuePizza, int menge)
+        {
+            this.neuePizza = neuePizza;
+            this.menge = menge;
+        }
+
         public override string ToString()
         {
-            return menge + " x " + neuePizza;
+            return menge + "x " + neuePizza;
         }
     }
 }

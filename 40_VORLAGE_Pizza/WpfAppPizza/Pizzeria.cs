@@ -10,11 +10,21 @@ using System.IO;
 
 namespace WpfAppPizza
 {
-    public class Pizzeria
+    public class Pizzeria: INotifyPropertyChanged
     {
-        private Bestellung bestellung;
-        ObservableCollection<Pizza> pizzen;
-        ObservableCollection<Kunde> kunden;
+        private Bestellung bestellung = new Bestellung();
+        ObservableCollection<Pizza> pizzen = new ObservableCollection<Pizza>();
+        ObservableCollection<Kunde> kunden = new ObservableCollection<Kunde>();
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChnaged(PropertyChangedEventArgs e)
+        {
+            if(PropertyChanged != null)
+            {
+                PropertyChanged(this, e);
+            }
+        }
 
         public Bestellung Bestellung { get => bestellung; set => bestellung = value; }
         public ObservableCollection<Pizza> Pizzen { get => pizzen; set => pizzen = value; }
@@ -22,24 +32,33 @@ namespace WpfAppPizza
 
         public Pizzeria()
         {
-            deserializeKunden();
-            deserializePizzen();
+            PizzenLesen();
+            KundenLesen();
         }
 
-        private void deserializeKunden()
+        public void PizzenLesen()
         {
-            XmlSerializer seriliazer = new XmlSerializer(typeof(ObservableCollection<Kunde>));
-            StreamReader sr = new StreamReader("Kunde.xml");
-            Kunden = (ObservableCollection<Kunde>)seriliazer.Deserialize(sr);
-            sr.Close();
+            XmlSerializer serialzer = new XmlSerializer(typeof(ObservableCollection<Pizza>));
+            TextReader reader = new StreamReader("Pizza.xml");
+            pizzen = (ObservableCollection<Pizza>)serialzer.Deserialize(reader);
+            reader.Close();
         }
 
-        private void deserializePizzen()
+        public void KundenLesen()
         {
-            XmlSerializer seriliazer = new XmlSerializer(typeof(ObservableCollection<Pizza>));
-            StreamReader sr = new StreamReader("Pizza.xml");
-            Pizzen = (ObservableCollection<Pizza>)seriliazer.Deserialize(sr);
-            sr.Close();
+            XmlSerializer serialzer = new XmlSerializer(typeof(ObservableCollection<Kunde>));
+            TextReader reader = new StreamReader("Kunde.xml");
+            kunden = (ObservableCollection<Kunde>)serialzer.Deserialize(reader);
+            reader.Close();
         }
+
+        public void NeueBestellung(Kunde kunde)
+        {
+            bestellung.Kunde = kunde;
+            bestellung.Datum = System.DateTime.Now;
+            OnPropertyChnaged(new PropertyChangedEventArgs("Bestellung"));
+
+        }
+
     }
 }

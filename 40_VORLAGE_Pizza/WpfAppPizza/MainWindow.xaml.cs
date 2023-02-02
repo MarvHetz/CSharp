@@ -23,15 +23,25 @@ namespace WpfAppPizza
    
     public partial class MainWindow : Window
     {
-        private Pizzeria pizzeria;
         
 
         public MainWindow()
         {
-            pizzeria = (Pizzeria)this.DataContext;
-            InitializeComponent();
+            InitializeComponent();           
+
         }
 
-        
+        private void buttonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Pizzeria p = (Pizzeria)DataContext;
+            p.NeueBestellung((Kunde)comboKunde.SelectedItem);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Pizzeria p = (Pizzeria)this.DataContext;
+            p.Bestellung.AddBestellposition(new BestellPosition((Pizza)comboPizza.SelectedItem,Convert.ToInt32(TextBoxMenge.Text)));
+            txtBoxGesamtWert.Text = p.Bestellung.Bestellwert.ToString();
+        }
     }
 }

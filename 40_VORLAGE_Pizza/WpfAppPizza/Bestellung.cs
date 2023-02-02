@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
-using System.Xml.Serialization;
-using System.IO;
 
 namespace WpfAppPizza
 {
     public class Bestellung
     {
         private DateTime datum;
-        private decimal bestellwert;
+        private Decimal bestellwert;
         private Kunde kunde;
         private ObservableCollection<BestellPosition> lstpositionen = new ObservableCollection<BestellPosition>();
 
@@ -23,13 +21,18 @@ namespace WpfAppPizza
 
         public Bestellung()
         {
-            
-        }
+            bestellwert = 0;
+        }        
 
         public void AddBestellposition(BestellPosition bestellpos)
         {
-            
-           
-        }       
+            lstpositionen.Add(bestellpos);
+            bestellwert += bestellpos.NeuePizza.Preis * bestellpos.Menge;
+        }
+
+        public override string ToString()
+        {
+            return kunde + ": " + datum;
+        }
     }
 }

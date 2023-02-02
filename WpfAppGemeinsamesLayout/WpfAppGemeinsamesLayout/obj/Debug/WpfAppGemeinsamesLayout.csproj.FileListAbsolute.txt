@@ -1,0 +1,17 @@
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\bin\Debug\WpfAppGemeinsamesLayout.exe.config
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\bin\Debug\WpfAppGemeinsamesLayout.exe
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\bin\Debug\WpfAppGemeinsamesLayout.pdb
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.csproj.AssemblyReference.cache
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.csproj.SuggestedBindingRedirects.cache
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\MainWindow.g.cs
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\App.g.cs
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout_MarkupCompile.cache
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout_MarkupCompile.lref
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\App.baml
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\MainWindow.baml
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.g.resources
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.Properties.Resources.resources
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.csproj.GenerateResource.cache
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.csproj.CoreCompileInputs.cache
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.exe
+H:\C#\WpfAppGemeinsamesLayout\WpfAppGemeinsamesLayout\obj\Debug\WpfAppGemeinsamesLayout.pdb

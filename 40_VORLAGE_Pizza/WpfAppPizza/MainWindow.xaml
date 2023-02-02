@@ -6,11 +6,9 @@
         xmlns:local="clr-namespace:WpfAppPizza"        
         mc:Ignorable="d"
         Title="Pizza Bestellservice" Height="700" Width="550">
-
     <Window.DataContext>
         <local:Pizzeria/>
     </Window.DataContext>
-
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition ></RowDefinition>
@@ -27,22 +25,31 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
+        <Image>
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="800" UriSource="H:\C#\40_VORLAGE_Pizza\WpfAppPizza\bin\Debug\logol.jpg"/>
+            </Image.Source>
+        </Image>
+        <Image Grid.Column="2">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="800" UriSource="H:\C#\40_VORLAGE_Pizza\WpfAppPizza\bin\Debug\logor.jpg"/>
+            </Image.Source>
+        </Image>
         <TextBlock Grid.Column="1" Text="Unser Lieferservice" FontSize="14" TextAlignment="Center" Margin="15"/>
 
         <TextBlock Grid.Row="1" Text="Kunden" FontSize="14" TextAlignment="Right" Margin="10"/>
         <ComboBox x:Name="comboKunde" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="14" Margin="10" ItemsSource="{Binding Kunden}"/>
-
-        <Button x:Name="buttonAdd" Content="Neue Bestellung" FontSize="14" Grid.Row="2" Grid.Column="2" Margin="10"/>
+        <TextBlock x:Name="lableKunden" Grid.Row="2" Text="{Binding Bestellung}"></TextBlock>
+        <Button x:Name="buttonAdd" Content="Neue Bestellung" FontSize="14" Grid.Row="2" Grid.Column="2" Margin="10" Click="buttonAdd_Click"/>
 
         <TextBlock Grid.Row="3" Text="Unsere Pizzen" FontSize="14" TextAlignment="Right" Margin="10"/>
         <ComboBox x:Name="comboPizza" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontSize="14" Margin="10" ItemsSource="{Binding Pizzen}"/>
 
         <TextBlock Grid.Row="4" Grid.Column="0" Text="Menge" FontSize="14" Margin="10" TextAlignment="Right"/>
         <TextBox x:Name="TextBoxMenge" Grid.Row="4" Grid.Column="1" FontSize="14" Margin="10" TextAlignment="Left"/>
-        <Button Grid.Row="4" Grid.Column="2" Content="Hinzufügen" FontSize="14" Margin="10"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="Hinzufügen" FontSize="14" Margin="10" Click="Button_Click"/>
 
-        <ListBox x:Name="listBoxBestellpositionen" Grid.Row="5" Grid.ColumnSpan="3" FontSize="14" Margin="10"/>
+        <ListBox x:Name="listBoxBestellpositionen" Grid.Row="5" Grid.ColumnSpan="3" FontSize="14" Margin="10" ItemsSource="{Binding Bestellung.Lstpositionen}"/>
 
         <TextBlock Grid.Row="6" Text="Gesamtwert" FontSize="14" Margin="10" TextAlignment="Right"/>
         <TextBox x:Name="txtBoxGesamtWert" Grid.Row="6" Grid.Column="1" Margin="10" FontSize="14" Grid.ColumnSpan="2"/>
