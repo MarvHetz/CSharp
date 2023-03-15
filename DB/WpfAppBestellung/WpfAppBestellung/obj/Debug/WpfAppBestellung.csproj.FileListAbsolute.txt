@@ -1,0 +1,17 @@
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\bin\Debug\WpfAppBestellung.exe.config
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\bin\Debug\WpfAppBestellung.exe
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\bin\Debug\WpfAppBestellung.pdb
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.csproj.SuggestedBindingRedirects.cache
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\MainWindow.g.cs
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\App.g.cs
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung_MarkupCompile.cache
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung_MarkupCompile.lref
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\MainWindow.baml
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.g.resources
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.Properties.Resources.resources
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.csproj.GenerateResource.cache
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.csproj.CoreCompileInputs.cache
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.exe
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.pdb
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\C#\DB\WpfAppBestellung\WpfAppBestellung\obj\Debug\WpfAppBestellung.csproj.AssemblyReference.cache

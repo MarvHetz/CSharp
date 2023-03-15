@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kurs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bezeichnung>Teambuilding</Bezeichnung>
+  <Datum>2022-03-15T00:00:00</Datum>
+  <ID>1</ID>
+  <Teilnehmer>
+    <Teilnehmer>
+      <Email>bd@web.de</Email>
+      <ID>1</ID>
+      <Nachname>Brown</Nachname>
+      <Vorname>Linus</Vorname>
+    </Teilnehmer>
+    <Teilnehmer>
+      <Email>wb@gmx.de</Email>
+      <ID>2</ID>
+      <Nachname>Wittstadt</Nachname>
+      <Vorname>Bernd</Vorname>
+    </Teilnehmer>
+    <Teilnehmer>
+      <Email>as@googlemail.de</Email>
+      <ID>3</ID>
+      <Nachname>Aufsess</Nachname>
+      <Vorname>Sergej</Vorname>
+    </Teilnehmer>
+  </Teilnehmer>
+</Kurs>

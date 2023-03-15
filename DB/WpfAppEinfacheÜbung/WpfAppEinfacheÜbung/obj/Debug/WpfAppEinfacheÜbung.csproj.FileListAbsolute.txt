@@ -1,0 +1,17 @@
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\bin\Debug\WpfAppEinfacheÜbung.exe.config
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\bin\Debug\WpfAppEinfacheÜbung.exe
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\bin\Debug\WpfAppEinfacheÜbung.pdb
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.csproj.AssemblyReference.cache
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.csproj.SuggestedBindingRedirects.cache
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\MainWindow.g.cs
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\App.g.cs
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung_MarkupCompile.cache
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung_MarkupCompile.lref
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\MainWindow.baml
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.g.resources
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.Properties.Resources.resources
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.csproj.GenerateResource.cache
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.csproj.CoreCompileInputs.cache
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.exe
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\WpfAppEinfacheÜbung.pdb
+H:\C#\DB\WpfAppEinfacheÜbung\WpfAppEinfacheÜbung\obj\Debug\GeneratedInternalTypeHelper.g.cs

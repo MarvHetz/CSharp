@@ -1,0 +1,17 @@
+H:\C#\DB\WpfAppKurse\WpfAppKurse\bin\Debug\WpfAppKurse.exe.config
+H:\C#\DB\WpfAppKurse\WpfAppKurse\bin\Debug\WpfAppKurse.exe
+H:\C#\DB\WpfAppKurse\WpfAppKurse\bin\Debug\WpfAppKurse.pdb
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.csproj.AssemblyReference.cache
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.csproj.SuggestedBindingRedirects.cache
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\MainWindow.g.cs
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\App.g.cs
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse_MarkupCompile.cache
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse_MarkupCompile.lref
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\MainWindow.baml
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.g.resources
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.Properties.Resources.resources
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.csproj.GenerateResource.cache
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.csproj.CoreCompileInputs.cache
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.exe
+H:\C#\DB\WpfAppKurse\WpfAppKurse\obj\Debug\WpfAppKurse.pdb

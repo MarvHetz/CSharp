@@ -50,7 +50,7 @@ namespace WpfAppDB1
             connection.Open();
 
             command = connection.CreateCommand();
-            command.CommandText = "Upadate Artikel set Artikel = '" + zuaendern.Name + "', Preis = '" + zuaendern.Preis + "' where Id = " + zuaendern.Id;
+            command.CommandText = "Update Artikel set Artikel = '" + zuaendern.Name + "', Preis = '" + zuaendern.Preis + "' where Id = " + zuaendern.Id;
             command.CommandType = CommandType.Text;
             command.ExecuteNonQuery();
 
