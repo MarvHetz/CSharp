@@ -1,0 +1,16 @@
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\bin\Debug\WpfAppLINQ.exe.config
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\bin\Debug\WpfAppLINQ.exe
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\bin\Debug\WpfAppLINQ.pdb
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.csproj.AssemblyReference.cache
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.csproj.SuggestedBindingRedirects.cache
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\MainWindow.g.cs
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\App.g.cs
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ_MarkupCompile.cache
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ_MarkupCompile.lref
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\MainWindow.baml
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.g.resources
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.Properties.Resources.resources
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.csproj.GenerateResource.cache
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.csproj.CoreCompileInputs.cache
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.exe
+H:\C#\LINQs\WpfAppLINQ\WpfAppLINQ\obj\Debug\WpfAppLINQ.pdb
